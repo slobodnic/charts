@@ -35,7 +35,7 @@ service:
 
   ## Service type can be set to ClusterIP, NodePort or LoadBalancer.
   ##
-  type: LoadBalancer 
+  type: ClusterIP 
 
 ingress:
   ## If true, Drone Ingress will be created.
